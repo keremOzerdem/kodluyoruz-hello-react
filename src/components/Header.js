@@ -1,8 +1,8 @@
 function Header() {
     return (
-        <div>
+        <p>
             Merhaba Ben Header Bileşeniyim.
-        </div>
+        </p>
     )
 }
 

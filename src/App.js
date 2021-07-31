@@ -3,11 +3,15 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
+    <>
       <Header />
-      <Header />
-      <Header />
-    </div>
+      <p className="xyz">Lorem ipsum dolor, amet consectetur</p>
+
+      <label htmlFor="myinput">
+        Name
+        <input id="myinput"></input>
+      </label>
+    </>
   )
 }
 
