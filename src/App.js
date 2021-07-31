@@ -1,16 +1,16 @@
 import './App.css';
 import Header from "./components/Header";
 
+const name = "Mehmet"
+const surname = "Seven"
+
+
 function App() {
   return (
     <>
-      <Header />
-      <p className="xyz">Lorem ipsum dolor, amet consectetur</p>
-
-      <label htmlFor="myinput">
-        Name
-        <input id="myinput"></input>
-      </label>
+      <h1>
+        {`Benim adım ${name}, soyadım ${surname}`}
+      </h1>
     </>
   )
 }
