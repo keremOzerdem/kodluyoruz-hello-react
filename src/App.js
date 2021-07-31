@@ -3,14 +3,16 @@ import Header from "./components/Header";
 
 const name = "Mehmet"
 const surname = "Seven"
-
+const isLoggedIn = false
 
 function App() {
   return (
     <>
       <h1>
-        {`Benim adım ${name}, soyadım ${surname}`}
+        {isLoggedIn ? `Benim adım ${name}, soyadım ${surname}` : !isLoggedIn && "Giriş yapmadınız."}
       </h1>
+
+
     </>
   )
 }
