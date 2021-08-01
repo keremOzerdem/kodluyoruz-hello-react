@@ -27,8 +27,6 @@ function App() {
         age={29}
         friends={friends}
       />
-
-
     </>
   )
 }
